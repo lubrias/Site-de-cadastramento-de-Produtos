@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walter SERVIÇOS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Walter Serviços </h1>
+    </header>
+    <form id="form">
+        <label for="name">Nome do produto:</label>
+        <input type="text" id="name">
+
+        <label for="category">Categoria:</label>
+        <select name="category" id="category">
+            <option value="Automotivo">Automotivo</option>
+            <option value="eletronicos">Eletrônicos</option>
+            <option value="roupas">Roupas</option>
+            <option value="casa">Casa</option>
+        </select>
+
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca">
+
+        <label for="price">Preço:</label>
+        <input type="number" step="0.01" id="price">
+
+        <label for="estoque">Quantidade em estoque:</label>
+        <input type="number" id="estoque">
+
+        <label for="codproduto">Código do produto:</label>
+        <input type="text" id="codproduto">
+
+        <label for="descproduto">Descrição curta:</label>
+        <input type="text" id="descproduto">
+
+        <label for="fonecedor">Fornecedor:</label>
+        <input type="text" id="fornecedor">
+
+        <label for="statusprod">Status do produto:</label>
+        <select name="statusprod" id="statusprod">
+            <option value="ativo">Ativo</option>
+            <option value="inativo">Inativo</option>
+            <option value="promocao">Em promoção</option></select>
+
+        <label for="telcontato">Telefone de contato:</label>
+        <input type="tel" id="tel" placeholder="(xx) xxxxx-xxxx">
+    </form>
+    <br>
+    <footer>&copy; Walter Serviços</footer>
+</body>
+</html>

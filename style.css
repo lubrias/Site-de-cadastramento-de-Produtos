@@ -1,0 +1,64 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #1e1e1e;
+}
+
+body {
+    padding: 1rem;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    background-image: linear-gradient(rgba(30, 30, 30, 0.84), rgba(30, 30, 30, 0.84)), url("truck-bg.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: cover, 900px auto;
+    background-attachment: fixed, fixed;
+}
+
+h1, footer {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #252526;
+    border: 1px solid #3c3c3c;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #3c3c3c;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    background-color: #2d2d30;
+    color: #d4d4d4;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3a3d41;
+    color: #f3f3f3;
+    font-size: 1.1rem;
+    cursor: pointer
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: cover, 560px auto;
+        background-attachment: scroll, scroll;
+    }
+}
